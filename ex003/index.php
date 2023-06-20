@@ -15,9 +15,11 @@
         // var_dump($n);
         // $vet = [1, 2, 3, 4, 5];
         // var_dump($vet);
+        
         class Pessoa {
             private string $nome;
         }
+        
         $p = new Pessoa;
         var_dump($p);
     ?>
